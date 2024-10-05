@@ -11,6 +11,7 @@ html {
 body {
   padding: 10px;
   background-color: #221f1f;
+  /* position: relative; */
 }
 
 :root {
@@ -24,8 +25,13 @@ header {
   z-index: 999;
   backdrop-filter: blur(5px);
 }
+
+nav{
+  position: relative;
+}
+
 .name {
-  color: white;
+  color: white; 
 }
 
 .name img {
@@ -41,9 +47,19 @@ header {
   font-size: 1rem;
 }
 
-.links,
-.profile-links-logo {
+.links{
   padding: 0.7rem;
+}
+
+
+.profile-links-logo{
+  /* position: relative; */
+}
+
+.profile-links-logo{
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .links ul li {
@@ -221,6 +237,12 @@ header {
   position: relative;
   width: 80%;
   margin: 0.7rem 0.2rem;
+}
+
+.skill-item h3{
+  color: #dcdde1;
+  /* text-align: center; */
+  padding-left: 2rem;
 }
 
 .skill-item::before {
@@ -515,6 +537,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0.3rem;
+    position: static;
   }
 
   .name {
@@ -527,6 +550,15 @@ footer{
     position: absolute;
     top: 36%;
     left: 0;
+  }
+
+  .profile-links-logo{
+    padding: 0.7rem;
+  }
+
+  .profile-links-logo{
+    position: static;
+ 
   }
 
   .links ul {
@@ -618,7 +650,7 @@ footer{
     font-size: 24px;
   }
   body {
-    padding: 0;
+    padding: 1.3rem;
   }
 
   .name p {
