@@ -11,7 +11,6 @@ html {
 body {
   padding: 10px;
   background-color: #221f1f;
-  /* position: relative; */
 }
 
 :root {
@@ -26,12 +25,12 @@ header {
   backdrop-filter: blur(5px);
 }
 
-nav{
+nav {
   position: relative;
 }
 
 .name {
-  color: white; 
+  color: white;
 }
 
 .name img {
@@ -47,16 +46,11 @@ nav{
   font-size: 1rem;
 }
 
-.links{
+.links {
   padding: 0.7rem;
 }
 
-
-.profile-links-logo{
-  /* position: relative; */
-}
-
-.profile-links-logo{
+.profile-links-logo {
   position: absolute;
   top: 0;
   right: 0;
@@ -239,9 +233,8 @@ nav{
   margin: 0.7rem 0.2rem;
 }
 
-.skill-item h3{
+.skill-item h3 {
   color: #dcdde1;
-  /* text-align: center; */
   padding-left: 2rem;
 }
 
@@ -362,9 +355,9 @@ nav{
   row-gap: 2rem;
 }
 
-.contuct-detals h3{
+.contuct-detals h3 {
   color: #ffffff91;
-  padding: .4rem .2rem;
+  padding: 0.4rem 0.2rem;
 }
 
 fieldset {
@@ -373,7 +366,7 @@ fieldset {
   position: relative;
   margin: 0 auto;
   color: var(--light-green);
-  border-radius: .6rem;
+  border-radius: 0.6rem;
   padding: 1.3rem;
 }
 
@@ -387,70 +380,68 @@ fieldset input {
 
 input[name="message"] {
   height: 8rem;
-
 }
 
 input[type="button"] {
   position: absolute;
-  bottom: .3rem;
+  bottom: 0.3rem;
   right: 1.3rem;
   padding: 0.3rem;
   background-color: #221f1f;
   color: #fff;
-  border: .15rem solid blue;
+  border: 0.15rem solid blue;
 }
 
 input[type="button"]:hover {
-  
   background-color: #221f1f;
   color: #fff;
   border: none;
   background-color: rgb(58, 58, 131);
 }
 
-footer{
+footer {
   position: relative;
 }
 
-.footer-links{
+.footer-links {
   margin-bottom: 1rem;
 }
 
-.footer-container{
+.footer-container {
   justify-content: space-between;
   margin-top: 5rem;
   padding: 1rem 1rem 1rem 0;
   color: #ffffffa6;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
-.footer-container::before{
-  content: '';
+.footer-container::before {
+  content: "";
   position: absolute;
   top: 0;
   background-color: #ffffffa7;
   width: 100%;
-  height: .1rem;
+  height: 0.1rem;
 }
 
-.footer-links ul{
+.footer-links ul {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.footer-container ul li{
+.footer-container ul li {
   list-style-type: none;
 }
 
-.footer-container ul li a{
-  padding: .7rem;
+.footer-container ul li a {
+  padding: 0.7rem;
   text-decoration: none;
   cursor: pointer;
   color: #ffffffa6;
 }
 
-.footer-copyright{
+.footer-copyright {
   text-align: center;
 }
 
@@ -552,13 +543,12 @@ footer{
     left: 0;
   }
 
-  .profile-links-logo{
+  .profile-links-logo {
     padding: 0.7rem;
   }
 
-  .profile-links-logo{
+  .profile-links-logo {
     position: static;
- 
   }
 
   .links ul {
@@ -635,14 +625,13 @@ footer{
     justify-self: center;
   }
 
-  .contuct-detals{
+  .contuct-detals {
     align-self: center;
     justify-self: center;
   }
-  .footer-container{
+  .footer-container {
     display: flex;
   }
-
 }
 
 @media screen and (min-width: 992px) {
